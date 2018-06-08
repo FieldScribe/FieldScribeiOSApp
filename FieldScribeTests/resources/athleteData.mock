@@ -1,0 +1,3304 @@
+{
+  "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3/athletes",
+  "rel": [
+    "collection"
+  ],
+  "athletesQuery": {
+    "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3/athletes",
+    "rel": [
+      "query-form"
+    ],
+    "value": [
+      {
+        "name": "orderBy",
+        "options": [
+          {
+            "label": "Sort by athleteId",
+            "value": "athleteId"
+          },
+          {
+            "label": "Sort by athleteId descending",
+            "value": "athleteId desc"
+          },
+          {
+            "label": "Sort by meetId",
+            "value": "meetId"
+          },
+          {
+            "label": "Sort by meetId descending",
+            "value": "meetId desc"
+          },
+          {
+            "label": "Sort by compNum",
+            "value": "compNum"
+          },
+          {
+            "label": "Sort by compNum descending",
+            "value": "compNum desc"
+          },
+          {
+            "label": "Sort by firstName",
+            "value": "firstName"
+          },
+          {
+            "label": "Sort by firstName descending",
+            "value": "firstName desc"
+          },
+          {
+            "label": "Sort by lastName",
+            "value": "lastName"
+          },
+          {
+            "label": "Sort by lastName descending",
+            "value": "lastName desc"
+          },
+          {
+            "label": "Sort by teamName",
+            "value": "teamName"
+          },
+          {
+            "label": "Sort by teamName descending",
+            "value": "teamName desc"
+          },
+          {
+            "label": "Sort by gender",
+            "value": "gender"
+          },
+          {
+            "label": "Sort by gender descending",
+            "value": "gender desc"
+          }
+        ],
+        "type": "set"
+      },
+      {
+        "name": "search",
+        "pattern": "/(athleteId|meetId|compNum|firstName|lastName|teamName|gender) (eq) (.*)/i",
+        "type": "set"
+      }
+    ]
+  },
+  "offset": 0,
+  "limit": 200,
+  "size": 475,
+  "first": {
+    "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3/athletes",
+    "rel": [
+      "collection"
+    ]
+  },
+  "next": {
+    "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3/athletes?limit=200&offset=200",
+    "rel": [
+      "collection"
+    ]
+  },
+  "last": {
+    "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3/athletes?limit=200&offset=400",
+    "rel": [
+      "collection"
+    ]
+  },
+  "value": [
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/471",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/471/events"
+      },
+      "athleteId": 471,
+      "meetId": 3,
+      "compNum": 400,
+      "firstName": "Adelaine",
+      "lastName": "Ahmasuk",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/472",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/472/events"
+      },
+      "athleteId": 472,
+      "meetId": 3,
+      "compNum": 878,
+      "firstName": "Kegan",
+      "lastName": "Allen",
+      "teamName": "Western Oregon",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/473",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/473/events"
+      },
+      "athleteId": 473,
+      "meetId": 3,
+      "compNum": 687,
+      "firstName": "Collin",
+      "lastName": "Alteneder",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/474",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/474/events"
+      },
+      "athleteId": 474,
+      "meetId": 3,
+      "compNum": 668,
+      "firstName": "Amadi",
+      "lastName": "Amaitsa",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/475",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/475/events"
+      },
+      "athleteId": 475,
+      "meetId": 3,
+      "compNum": 513,
+      "firstName": "Aerin",
+      "lastName": "Amore",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/476",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/476/events"
+      },
+      "athleteId": 476,
+      "meetId": 3,
+      "compNum": 669,
+      "firstName": "Stephen",
+      "lastName": "Anderson",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/477",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/477/events"
+      },
+      "athleteId": 477,
+      "meetId": 3,
+      "compNum": 858,
+      "firstName": "Seth",
+      "lastName": "Andres",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/478",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/478/events"
+      },
+      "athleteId": 478,
+      "meetId": 3,
+      "compNum": 794,
+      "firstName": "Michael",
+      "lastName": "Andrews",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/479",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/479/events"
+      },
+      "athleteId": 479,
+      "meetId": 3,
+      "compNum": 900,
+      "firstName": "Monica",
+      "lastName": "Angelechio",
+      "teamName": "Clackamas CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/480",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/480/events"
+      },
+      "athleteId": 480,
+      "meetId": 3,
+      "compNum": 688,
+      "firstName": "Michael",
+      "lastName": "Armour",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/481",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/481/events"
+      },
+      "athleteId": 481,
+      "meetId": 3,
+      "compNum": 689,
+      "firstName": "Romare",
+      "lastName": "Ashford",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/482",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/482/events"
+      },
+      "athleteId": 482,
+      "meetId": 3,
+      "compNum": 910,
+      "firstName": "Lindsay",
+      "lastName": "Asplund",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/483",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/483/events"
+      },
+      "athleteId": 483,
+      "meetId": 3,
+      "compNum": 690,
+      "firstName": "Colin",
+      "lastName": "Atchison",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/484",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/484/events"
+      },
+      "athleteId": 484,
+      "meetId": 3,
+      "compNum": 740,
+      "firstName": "Noah",
+      "lastName": "Avery",
+      "teamName": "Lewis & Clark",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/485",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/485/events"
+      },
+      "athleteId": 485,
+      "meetId": 3,
+      "compNum": 670,
+      "firstName": "JRhett",
+      "lastName": "Baker",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/486",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/486/events"
+      },
+      "athleteId": 486,
+      "meetId": 3,
+      "compNum": 879,
+      "firstName": "Logan",
+      "lastName": "Barker",
+      "teamName": "Western Oregon",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/487",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/487/events"
+      },
+      "athleteId": 487,
+      "meetId": 3,
+      "compNum": 772,
+      "firstName": "Jaron",
+      "lastName": "Barrow",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/488",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/488/events"
+      },
+      "athleteId": 488,
+      "meetId": 3,
+      "compNum": 817,
+      "firstName": "Kaleb",
+      "lastName": "Bass",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/489",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/489/events"
+      },
+      "athleteId": 489,
+      "meetId": 3,
+      "compNum": 529,
+      "firstName": "Katie",
+      "lastName": "Baxter",
+      "teamName": "Unattached",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/490",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/490/events"
+      },
+      "athleteId": 490,
+      "meetId": 3,
+      "compNum": 642,
+      "firstName": "Brady",
+      "lastName": "Beagley",
+      "teamName": "Bowerman TC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/491",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/491/events"
+      },
+      "athleteId": 491,
+      "meetId": 3,
+      "compNum": 401,
+      "firstName": "Courtney",
+      "lastName": "Beard",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/492",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/492/events"
+      },
+      "athleteId": 492,
+      "meetId": 3,
+      "compNum": 901,
+      "firstName": "Cassidy",
+      "lastName": "Bell",
+      "teamName": "Clackamas CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/493",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/493/events"
+      },
+      "athleteId": 493,
+      "meetId": 3,
+      "compNum": 926,
+      "firstName": "Justine",
+      "lastName": "Benner",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/494",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/494/events"
+      },
+      "athleteId": 494,
+      "meetId": 3,
+      "compNum": 859,
+      "firstName": "Seth",
+      "lastName": "Berdahl",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/495",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/495/events"
+      },
+      "athleteId": 495,
+      "meetId": 3,
+      "compNum": 691,
+      "firstName": "Emerson",
+      "lastName": "Berosik",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/496",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/496/events"
+      },
+      "athleteId": 496,
+      "meetId": 3,
+      "compNum": 402,
+      "firstName": "Annalise",
+      "lastName": "Beshears",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/497",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/497/events"
+      },
+      "athleteId": 497,
+      "meetId": 3,
+      "compNum": 692,
+      "firstName": "Zach",
+      "lastName": "Bibb",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/498",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/498/events"
+      },
+      "athleteId": 498,
+      "meetId": 3,
+      "compNum": 645,
+      "firstName": "Weyekin",
+      "lastName": "Bill",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/499",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/499/events"
+      },
+      "athleteId": 499,
+      "meetId": 3,
+      "compNum": 927,
+      "firstName": "Abigail",
+      "lastName": "Bitzenburg",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/500",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/500/events"
+      },
+      "athleteId": 500,
+      "meetId": 3,
+      "compNum": 497,
+      "firstName": "Michaella",
+      "lastName": "Black",
+      "teamName": "SW Oregon CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/501",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/501/events"
+      },
+      "athleteId": 501,
+      "meetId": 3,
+      "compNum": 750,
+      "firstName": "Grant",
+      "lastName": "Blodgett",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/502",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/502/events"
+      },
+      "athleteId": 502,
+      "meetId": 3,
+      "compNum": 671,
+      "firstName": "Christian",
+      "lastName": "Bohuslavizki",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/503",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/503/events"
+      },
+      "athleteId": 503,
+      "meetId": 3,
+      "compNum": 902,
+      "firstName": "Chelsea",
+      "lastName": "Bone",
+      "teamName": "Clackamas CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/504",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/504/events"
+      },
+      "athleteId": 504,
+      "meetId": 3,
+      "compNum": 903,
+      "firstName": "Suzy",
+      "lastName": "Botsford",
+      "teamName": "Clackamas CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/505",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/505/events"
+      },
+      "athleteId": 505,
+      "meetId": 3,
+      "compNum": 880,
+      "firstName": "Brandon",
+      "lastName": "Bowen",
+      "teamName": "Western Oregon",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/506",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/506/events"
+      },
+      "athleteId": 506,
+      "meetId": 3,
+      "compNum": 964,
+      "firstName": "Samantha",
+      "lastName": "Bowen",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/507",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/507/events"
+      },
+      "athleteId": 507,
+      "meetId": 3,
+      "compNum": 672,
+      "firstName": "Jason",
+      "lastName": "Bracken",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/508",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/508/events"
+      },
+      "athleteId": 508,
+      "meetId": 3,
+      "compNum": 693,
+      "firstName": "Ryan",
+      "lastName": "Braden",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/509",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/509/events"
+      },
+      "athleteId": 509,
+      "meetId": 3,
+      "compNum": 860,
+      "firstName": "De Shaun",
+      "lastName": "Bradley",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/510",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/510/events"
+      },
+      "athleteId": 510,
+      "meetId": 3,
+      "compNum": 403,
+      "firstName": "Mikayla",
+      "lastName": "Bradley",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/511",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/511/events"
+      },
+      "athleteId": 511,
+      "meetId": 3,
+      "compNum": 795,
+      "firstName": "A.J.",
+      "lastName": "Breidenbach",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/512",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/512/events"
+      },
+      "athleteId": 512,
+      "meetId": 3,
+      "compNum": 861,
+      "firstName": "Calvin",
+      "lastName": "Brewer",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/513",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/513/events"
+      },
+      "athleteId": 513,
+      "meetId": 3,
+      "compNum": 796,
+      "firstName": "Samual",
+      "lastName": "Brewster",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/514",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/514/events"
+      },
+      "athleteId": 514,
+      "meetId": 3,
+      "compNum": 673,
+      "firstName": "Jonah",
+      "lastName": "Brokaw",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/515",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/515/events"
+      },
+      "athleteId": 515,
+      "meetId": 3,
+      "compNum": 498,
+      "firstName": "Aajua",
+      "lastName": "Brooks",
+      "teamName": "SW Oregon CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/516",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/516/events"
+      },
+      "athleteId": 516,
+      "meetId": 3,
+      "compNum": 514,
+      "firstName": "Brittany",
+      "lastName": "Broughton",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/517",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/517/events"
+      },
+      "athleteId": 517,
+      "meetId": 3,
+      "compNum": 448,
+      "firstName": "Sierra",
+      "lastName": "Brown",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/518",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/518/events"
+      },
+      "athleteId": 518,
+      "meetId": 3,
+      "compNum": 449,
+      "firstName": "Cassandra",
+      "lastName": "Brownell",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/519",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/519/events"
+      },
+      "athleteId": 519,
+      "meetId": 3,
+      "compNum": 404,
+      "firstName": "Jordyn",
+      "lastName": "Brugler",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/520",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/520/events"
+      },
+      "athleteId": 520,
+      "meetId": 3,
+      "compNum": 472,
+      "firstName": "Lailani",
+      "lastName": "Buchanan",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/521",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/521/events"
+      },
+      "athleteId": 521,
+      "meetId": 3,
+      "compNum": 965,
+      "firstName": "Sarah",
+      "lastName": "Bucknovitz",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/522",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/522/events"
+      },
+      "athleteId": 522,
+      "meetId": 3,
+      "compNum": 928,
+      "firstName": "Alyssa",
+      "lastName": "Burch",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/523",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/523/events"
+      },
+      "athleteId": 523,
+      "meetId": 3,
+      "compNum": 694,
+      "firstName": "Chris",
+      "lastName": "Burton",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/524",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/524/events"
+      },
+      "athleteId": 524,
+      "meetId": 3,
+      "compNum": 885,
+      "firstName": "Riley",
+      "lastName": "Burton",
+      "teamName": "Willamette",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/525",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/525/events"
+      },
+      "athleteId": 525,
+      "meetId": 3,
+      "compNum": 473,
+      "firstName": "Kymberlin",
+      "lastName": "Bush",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/526",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/526/events"
+      },
+      "athleteId": 526,
+      "meetId": 3,
+      "compNum": 695,
+      "firstName": "Riley",
+      "lastName": "Bushnell",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/527",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/527/events"
+      },
+      "athleteId": 527,
+      "meetId": 3,
+      "compNum": 929,
+      "firstName": "Macadia",
+      "lastName": "Calavan",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/528",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/528/events"
+      },
+      "athleteId": 528,
+      "meetId": 3,
+      "compNum": 782,
+      "firstName": "Isaiah",
+      "lastName": "Camacho",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/529",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/529/events"
+      },
+      "athleteId": 529,
+      "meetId": 3,
+      "compNum": 405,
+      "firstName": "Baylie",
+      "lastName": "Cameron",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/530",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/530/events"
+      },
+      "athleteId": 530,
+      "meetId": 3,
+      "compNum": 797,
+      "firstName": "Antonio",
+      "lastName": "Campos",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/531",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/531/events"
+      },
+      "athleteId": 531,
+      "meetId": 3,
+      "compNum": 646,
+      "firstName": "Dan",
+      "lastName": "Carrier",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/532",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/532/events"
+      },
+      "athleteId": 532,
+      "meetId": 3,
+      "compNum": 445,
+      "firstName": "Sarah",
+      "lastName": "Carrier",
+      "teamName": "Multnomah",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/533",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/533/events"
+      },
+      "athleteId": 533,
+      "meetId": 3,
+      "compNum": 798,
+      "firstName": "Daniel",
+      "lastName": "Carter",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/534",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/534/events"
+      },
+      "athleteId": 534,
+      "meetId": 3,
+      "compNum": 647,
+      "firstName": "Troy",
+      "lastName": "Carver",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/535",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/535/events"
+      },
+      "athleteId": 535,
+      "meetId": 3,
+      "compNum": 862,
+      "firstName": "Tapiwa",
+      "lastName": "Chabikwa",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/536",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/536/events"
+      },
+      "athleteId": 536,
+      "meetId": 3,
+      "compNum": 406,
+      "firstName": "Morgan",
+      "lastName": "Chamberlain",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/537",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/537/events"
+      },
+      "athleteId": 537,
+      "meetId": 3,
+      "compNum": 799,
+      "firstName": "Joshua",
+      "lastName": "Chesnut",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/538",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/538/events"
+      },
+      "athleteId": 538,
+      "meetId": 3,
+      "compNum": 911,
+      "firstName": "Kristi",
+      "lastName": "Childers",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/539",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/539/events"
+      },
+      "athleteId": 539,
+      "meetId": 3,
+      "compNum": 881,
+      "firstName": "Michael",
+      "lastName": "Chin",
+      "teamName": "Western Oregon",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/540",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/540/events"
+      },
+      "athleteId": 540,
+      "meetId": 3,
+      "compNum": 474,
+      "firstName": "Dianna",
+      "lastName": "Church",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/541",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/541/events"
+      },
+      "athleteId": 541,
+      "meetId": 3,
+      "compNum": 407,
+      "firstName": "Birch",
+      "lastName": "Clark",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/542",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/542/events"
+      },
+      "athleteId": 542,
+      "meetId": 3,
+      "compNum": 751,
+      "firstName": "Adrian",
+      "lastName": "Clifford",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/543",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/543/events"
+      },
+      "athleteId": 543,
+      "meetId": 3,
+      "compNum": 475,
+      "firstName": "Brynna",
+      "lastName": "Close",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/544",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/544/events"
+      },
+      "athleteId": 544,
+      "meetId": 3,
+      "compNum": 773,
+      "firstName": "Caleb",
+      "lastName": "Coe",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/545",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/545/events"
+      },
+      "athleteId": 545,
+      "meetId": 3,
+      "compNum": 793,
+      "firstName": "Drake",
+      "lastName": "Collins",
+      "teamName": "Multnomah University Elite",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/546",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/546/events"
+      },
+      "athleteId": 546,
+      "meetId": 3,
+      "compNum": 648,
+      "firstName": "Garrett",
+      "lastName": "Collins",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/547",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/547/events"
+      },
+      "athleteId": 547,
+      "meetId": 3,
+      "compNum": 904,
+      "firstName": "Saraia",
+      "lastName": "Collmer",
+      "teamName": "Clackamas CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/548",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/548/events"
+      },
+      "athleteId": 548,
+      "meetId": 3,
+      "compNum": 783,
+      "firstName": "Trever",
+      "lastName": "Cooley",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/549",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/549/events"
+      },
+      "athleteId": 549,
+      "meetId": 3,
+      "compNum": 515,
+      "firstName": "Sam",
+      "lastName": "Coon",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/550",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/550/events"
+      },
+      "athleteId": 550,
+      "meetId": 3,
+      "compNum": 784,
+      "firstName": "Keegan",
+      "lastName": "Council",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/551",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/551/events"
+      },
+      "athleteId": 551,
+      "meetId": 3,
+      "compNum": 800,
+      "firstName": "Conner",
+      "lastName": "Covey",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/552",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/552/events"
+      },
+      "athleteId": 552,
+      "meetId": 3,
+      "compNum": 966,
+      "firstName": "Keira",
+      "lastName": "Crabtree",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/553",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/553/events"
+      },
+      "athleteId": 553,
+      "meetId": 3,
+      "compNum": 912,
+      "firstName": "Kyla",
+      "lastName": "Creech",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/554",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/554/events"
+      },
+      "athleteId": 554,
+      "meetId": 3,
+      "compNum": 967,
+      "firstName": "Ellery",
+      "lastName": "Creighton",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/555",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/555/events"
+      },
+      "athleteId": 555,
+      "meetId": 3,
+      "compNum": 930,
+      "firstName": "Elizabeth",
+      "lastName": "Cruickshank",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/556",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/556/events"
+      },
+      "athleteId": 556,
+      "meetId": 3,
+      "compNum": 476,
+      "firstName": "Sarah",
+      "lastName": "Curl",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/557",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/557/events"
+      },
+      "athleteId": 557,
+      "meetId": 3,
+      "compNum": 913,
+      "firstName": "Adrianna",
+      "lastName": "Curteman",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/558",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/558/events"
+      },
+      "athleteId": 558,
+      "meetId": 3,
+      "compNum": 931,
+      "firstName": "Allison",
+      "lastName": "Dalzell",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/559",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/559/events"
+      },
+      "athleteId": 559,
+      "meetId": 3,
+      "compNum": 696,
+      "firstName": "Caleb",
+      "lastName": "Dalzell",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/560",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/560/events"
+      },
+      "athleteId": 560,
+      "meetId": 3,
+      "compNum": 408,
+      "firstName": "Molly",
+      "lastName": "Danielson",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/561",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/561/events"
+      },
+      "athleteId": 561,
+      "meetId": 3,
+      "compNum": 752,
+      "firstName": "Hayden",
+      "lastName": "Davisson",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/562",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/562/events"
+      },
+      "athleteId": 562,
+      "meetId": 3,
+      "compNum": 863,
+      "firstName": "Jose",
+      "lastName": "De La Torre",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/563",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/563/events"
+      },
+      "athleteId": 563,
+      "meetId": 3,
+      "compNum": 409,
+      "firstName": "Elizabeth",
+      "lastName": "Dean",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/564",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/564/events"
+      },
+      "athleteId": 564,
+      "meetId": 3,
+      "compNum": 507,
+      "firstName": "Sylvia",
+      "lastName": "Dean",
+      "teamName": "Western Oregon",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/565",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/565/events"
+      },
+      "athleteId": 565,
+      "meetId": 3,
+      "compNum": 801,
+      "firstName": "Diego",
+      "lastName": "Delaplane",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/566",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/566/events"
+      },
+      "athleteId": 566,
+      "meetId": 3,
+      "compNum": 410,
+      "firstName": "Rebecca",
+      "lastName": "DeLeon",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/567",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/567/events"
+      },
+      "athleteId": 567,
+      "meetId": 3,
+      "compNum": 450,
+      "firstName": "Bailey",
+      "lastName": "Dell",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/568",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/568/events"
+      },
+      "athleteId": 568,
+      "meetId": 3,
+      "compNum": 477,
+      "firstName": "Jalaena",
+      "lastName": "DiPasquale",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/569",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/569/events"
+      },
+      "athleteId": 569,
+      "meetId": 3,
+      "compNum": 697,
+      "firstName": "Devon",
+      "lastName": "Donahue",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/570",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/570/events"
+      },
+      "athleteId": 570,
+      "meetId": 3,
+      "compNum": 774,
+      "firstName": "Andre",
+      "lastName": "Dorn",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/571",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/571/events"
+      },
+      "athleteId": 571,
+      "meetId": 3,
+      "compNum": 753,
+      "firstName": "Brian",
+      "lastName": "Douglas",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/572",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/572/events"
+      },
+      "athleteId": 572,
+      "meetId": 3,
+      "compNum": 754,
+      "firstName": "Drew",
+      "lastName": "Doxsie",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/573",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/573/events"
+      },
+      "athleteId": 573,
+      "meetId": 3,
+      "compNum": 818,
+      "firstName": "Jason",
+      "lastName": "Draper",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/574",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/574/events"
+      },
+      "athleteId": 574,
+      "meetId": 3,
+      "compNum": 478,
+      "firstName": "Karen",
+      "lastName": "Du",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/575",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/575/events"
+      },
+      "athleteId": 575,
+      "meetId": 3,
+      "compNum": 516,
+      "firstName": "Hope",
+      "lastName": "Duenas",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/576",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/576/events"
+      },
+      "athleteId": 576,
+      "meetId": 3,
+      "compNum": 802,
+      "firstName": "Alec",
+      "lastName": "Duncan",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/577",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/577/events"
+      },
+      "athleteId": 577,
+      "meetId": 3,
+      "compNum": 932,
+      "firstName": "Danyle",
+      "lastName": "Dupray",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/578",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/578/events"
+      },
+      "athleteId": 578,
+      "meetId": 3,
+      "compNum": 819,
+      "firstName": "Jacob",
+      "lastName": "Duvall",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/579",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/579/events"
+      },
+      "athleteId": 579,
+      "meetId": 3,
+      "compNum": 479,
+      "firstName": "Megan",
+      "lastName": "Eberhardt",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/580",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/580/events"
+      },
+      "athleteId": 580,
+      "meetId": 3,
+      "compNum": 451,
+      "firstName": "Hannah",
+      "lastName": "Eddens",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/581",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/581/events"
+      },
+      "athleteId": 581,
+      "meetId": 3,
+      "compNum": 820,
+      "firstName": "Kyle",
+      "lastName": "Eisenbeis",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/582",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/582/events"
+      },
+      "athleteId": 582,
+      "meetId": 3,
+      "compNum": 845,
+      "firstName": "Luke",
+      "lastName": "Elliot",
+      "teamName": "SW Oregon CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/583",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/583/events"
+      },
+      "athleteId": 583,
+      "meetId": 3,
+      "compNum": 698,
+      "firstName": "Spencer",
+      "lastName": "Elmore",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/584",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/584/events"
+      },
+      "athleteId": 584,
+      "meetId": 3,
+      "compNum": 821,
+      "firstName": "Langston",
+      "lastName": "Engle",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/585",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/585/events"
+      },
+      "athleteId": 585,
+      "meetId": 3,
+      "compNum": 886,
+      "firstName": "Ross",
+      "lastName": "Enlow",
+      "teamName": "Willamette",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/586",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/586/events"
+      },
+      "athleteId": 586,
+      "meetId": 3,
+      "compNum": 785,
+      "firstName": "Michael",
+      "lastName": "Escobedo",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/587",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/587/events"
+      },
+      "athleteId": 587,
+      "meetId": 3,
+      "compNum": 411,
+      "firstName": "Jade",
+      "lastName": "Everage",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/588",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/588/events"
+      },
+      "athleteId": 588,
+      "meetId": 3,
+      "compNum": 887,
+      "firstName": "Orion",
+      "lastName": "Ewell",
+      "teamName": "Willamette",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/589",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/589/events"
+      },
+      "athleteId": 589,
+      "meetId": 3,
+      "compNum": 508,
+      "firstName": "Alecia",
+      "lastName": "Falck",
+      "teamName": "Western Oregon",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/590",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/590/events"
+      },
+      "athleteId": 590,
+      "meetId": 3,
+      "compNum": 480,
+      "firstName": "Airel",
+      "lastName": "Farley",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/591",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/591/events"
+      },
+      "athleteId": 591,
+      "meetId": 3,
+      "compNum": 822,
+      "firstName": "Gaige",
+      "lastName": "Felix",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/592",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/592/events"
+      },
+      "athleteId": 592,
+      "meetId": 3,
+      "compNum": 649,
+      "firstName": "Michael",
+      "lastName": "Fields",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/593",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/593/events"
+      },
+      "athleteId": 593,
+      "meetId": 3,
+      "compNum": 699,
+      "firstName": "Henry",
+      "lastName": "Fillmore",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/594",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/594/events"
+      },
+      "athleteId": 594,
+      "meetId": 3,
+      "compNum": 674,
+      "firstName": "Asa",
+      "lastName": "Flanagan",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/595",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/595/events"
+      },
+      "athleteId": 595,
+      "meetId": 3,
+      "compNum": 452,
+      "firstName": "Michelle",
+      "lastName": "Fletcher",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/596",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/596/events"
+      },
+      "athleteId": 596,
+      "meetId": 3,
+      "compNum": 412,
+      "firstName": "Jasmine",
+      "lastName": "Fojas",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/597",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/597/events"
+      },
+      "athleteId": 597,
+      "meetId": 3,
+      "compNum": 517,
+      "firstName": "Maura",
+      "lastName": "Forbush",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/598",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/598/events"
+      },
+      "athleteId": 598,
+      "meetId": 3,
+      "compNum": 933,
+      "firstName": "Lexi",
+      "lastName": "French",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/599",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/599/events"
+      },
+      "athleteId": 599,
+      "meetId": 3,
+      "compNum": 481,
+      "firstName": "Micaela",
+      "lastName": "Frick",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/600",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/600/events"
+      },
+      "athleteId": 600,
+      "meetId": 3,
+      "compNum": 934,
+      "firstName": "Kaylea",
+      "lastName": "Friedrichsen",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/601",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/601/events"
+      },
+      "athleteId": 601,
+      "meetId": 3,
+      "compNum": 775,
+      "firstName": "Jacob",
+      "lastName": "Fry",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/602",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/602/events"
+      },
+      "athleteId": 602,
+      "meetId": 3,
+      "compNum": 755,
+      "firstName": "Ryne",
+      "lastName": "Fuhrmark",
+      "teamName": "Linfield",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/603",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/603/events"
+      },
+      "athleteId": 603,
+      "meetId": 3,
+      "compNum": 823,
+      "firstName": "Alec",
+      "lastName": "Furst",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/604",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/604/events"
+      },
+      "athleteId": 604,
+      "meetId": 3,
+      "compNum": 453,
+      "firstName": "Macie",
+      "lastName": "Gale",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/605",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/605/events"
+      },
+      "athleteId": 605,
+      "meetId": 3,
+      "compNum": 803,
+      "firstName": "Anthony",
+      "lastName": "Galindo",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/606",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/606/events"
+      },
+      "athleteId": 606,
+      "meetId": 3,
+      "compNum": 413,
+      "firstName": "Joanna",
+      "lastName": "Galli",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/607",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/607/events"
+      },
+      "athleteId": 607,
+      "meetId": 3,
+      "compNum": 786,
+      "firstName": "Travis",
+      "lastName": "Gardner",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/608",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/608/events"
+      },
+      "athleteId": 608,
+      "meetId": 3,
+      "compNum": 700,
+      "firstName": "Devin",
+      "lastName": "Geiger",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/609",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/609/events"
+      },
+      "athleteId": 609,
+      "meetId": 3,
+      "compNum": 846,
+      "firstName": "Cole",
+      "lastName": "George",
+      "teamName": "SW Oregon CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/610",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/610/events"
+      },
+      "athleteId": 610,
+      "meetId": 3,
+      "compNum": 701,
+      "firstName": "Josh",
+      "lastName": "Gibbs",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/611",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/611/events"
+      },
+      "athleteId": 611,
+      "meetId": 3,
+      "compNum": 935,
+      "firstName": "Rachel",
+      "lastName": "Gibbs",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/612",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/612/events"
+      },
+      "athleteId": 612,
+      "meetId": 3,
+      "compNum": 824,
+      "firstName": "Stephen",
+      "lastName": "Gift",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/613",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/613/events"
+      },
+      "athleteId": 613,
+      "meetId": 3,
+      "compNum": 482,
+      "firstName": "Elaina",
+      "lastName": "Gillespie",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/614",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/614/events"
+      },
+      "athleteId": 614,
+      "meetId": 3,
+      "compNum": 650,
+      "firstName": "Charlie",
+      "lastName": "Gilpin",
+      "teamName": "Clackamas CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/615",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/615/events"
+      },
+      "athleteId": 615,
+      "meetId": 3,
+      "compNum": 414,
+      "firstName": "Madison",
+      "lastName": "Gladding",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/616",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/616/events"
+      },
+      "athleteId": 616,
+      "meetId": 3,
+      "compNum": 968,
+      "firstName": "Nicole",
+      "lastName": "Godbout",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/617",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/617/events"
+      },
+      "athleteId": 617,
+      "meetId": 3,
+      "compNum": 825,
+      "firstName": "Jesse",
+      "lastName": "Golder",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/618",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/618/events"
+      },
+      "athleteId": 618,
+      "meetId": 3,
+      "compNum": 776,
+      "firstName": "Brian",
+      "lastName": "Golding",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/619",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/619/events"
+      },
+      "athleteId": 619,
+      "meetId": 3,
+      "compNum": 702,
+      "firstName": "Jacob",
+      "lastName": "Graham",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/620",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/620/events"
+      },
+      "athleteId": 620,
+      "meetId": 3,
+      "compNum": 703,
+      "firstName": "Chris",
+      "lastName": "Gray",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/621",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/621/events"
+      },
+      "athleteId": 621,
+      "meetId": 3,
+      "compNum": 483,
+      "firstName": "Dani",
+      "lastName": "Greene",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/622",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/622/events"
+      },
+      "athleteId": 622,
+      "meetId": 3,
+      "compNum": 509,
+      "firstName": "Mariah",
+      "lastName": "Gronbach",
+      "teamName": "Western Oregon",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/623",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/623/events"
+      },
+      "athleteId": 623,
+      "meetId": 3,
+      "compNum": 936,
+      "firstName": "Lydia",
+      "lastName": "Gronseth",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/624",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/624/events"
+      },
+      "athleteId": 624,
+      "meetId": 3,
+      "compNum": 888,
+      "firstName": "DAngelo",
+      "lastName": "Guiton",
+      "teamName": "Willamette",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/625",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/625/events"
+      },
+      "athleteId": 625,
+      "meetId": 3,
+      "compNum": 787,
+      "firstName": "Joshua",
+      "lastName": "Gulliford",
+      "teamName": "Multnomah",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/626",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/626/events"
+      },
+      "athleteId": 626,
+      "meetId": 3,
+      "compNum": 454,
+      "firstName": "Molly",
+      "lastName": "Gwinn",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/627",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/627/events"
+      },
+      "athleteId": 627,
+      "meetId": 3,
+      "compNum": 804,
+      "firstName": "Aaron",
+      "lastName": "Hackney",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/628",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/628/events"
+      },
+      "athleteId": 628,
+      "meetId": 3,
+      "compNum": 805,
+      "firstName": "Christian",
+      "lastName": "Hackney",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/629",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/629/events"
+      },
+      "athleteId": 629,
+      "meetId": 3,
+      "compNum": 969,
+      "firstName": "Chase",
+      "lastName": "Hagar",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/630",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/630/events"
+      },
+      "athleteId": 630,
+      "meetId": 3,
+      "compNum": 704,
+      "firstName": "T.J.",
+      "lastName": "Haimoto",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/631",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/631/events"
+      },
+      "athleteId": 631,
+      "meetId": 3,
+      "compNum": 484,
+      "firstName": "Cece",
+      "lastName": "Hall",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/632",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/632/events"
+      },
+      "athleteId": 632,
+      "meetId": 3,
+      "compNum": 889,
+      "firstName": "Elijah",
+      "lastName": "Hall-Crockett",
+      "teamName": "Willamette",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/633",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/633/events"
+      },
+      "athleteId": 633,
+      "meetId": 3,
+      "compNum": 864,
+      "firstName": "Kobie",
+      "lastName": "Ham",
+      "teamName": "Unattached",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/634",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/634/events"
+      },
+      "athleteId": 634,
+      "meetId": 3,
+      "compNum": 937,
+      "firstName": "Emily",
+      "lastName": "Hamilton",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/635",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/635/events"
+      },
+      "athleteId": 635,
+      "meetId": 3,
+      "compNum": 518,
+      "firstName": "Marisa",
+      "lastName": "Hamilton",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/636",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/636/events"
+      },
+      "athleteId": 636,
+      "meetId": 3,
+      "compNum": 485,
+      "firstName": "Shannon",
+      "lastName": "Hammond",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/637",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/637/events"
+      },
+      "athleteId": 637,
+      "meetId": 3,
+      "compNum": 806,
+      "firstName": "Colby",
+      "lastName": "Hanson",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/638",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/638/events"
+      },
+      "athleteId": 638,
+      "meetId": 3,
+      "compNum": 675,
+      "firstName": "Cody",
+      "lastName": "Harmon",
+      "teamName": "Corban",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/639",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/639/events"
+      },
+      "athleteId": 639,
+      "meetId": 3,
+      "compNum": 914,
+      "firstName": "Mindy",
+      "lastName": "Harmon",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/640",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/640/events"
+      },
+      "athleteId": 640,
+      "meetId": 3,
+      "compNum": 741,
+      "firstName": "Miguel",
+      "lastName": "Haro-Ruiz",
+      "teamName": "Lewis & Clark",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/641",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/641/events"
+      },
+      "athleteId": 641,
+      "meetId": 3,
+      "compNum": 455,
+      "firstName": "Myah",
+      "lastName": "Harter",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/642",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/642/events"
+      },
+      "athleteId": 642,
+      "meetId": 3,
+      "compNum": 826,
+      "firstName": "Steen",
+      "lastName": "Hausknect-Buss",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/643",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/643/events"
+      },
+      "athleteId": 643,
+      "meetId": 3,
+      "compNum": 777,
+      "firstName": "Williams",
+      "lastName": "Hawks",
+      "teamName": "Mt. Hood CC",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/644",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/644/events"
+      },
+      "athleteId": 644,
+      "meetId": 3,
+      "compNum": 705,
+      "firstName": "Brendon",
+      "lastName": "Henkel",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/645",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/645/events"
+      },
+      "athleteId": 645,
+      "meetId": 3,
+      "compNum": 499,
+      "firstName": "Grace",
+      "lastName": "Hermann",
+      "teamName": "SW Oregon CC",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/646",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/646/events"
+      },
+      "athleteId": 646,
+      "meetId": 3,
+      "compNum": 706,
+      "firstName": "Miklo",
+      "lastName": "Hernadez",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/647",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/647/events"
+      },
+      "athleteId": 647,
+      "meetId": 3,
+      "compNum": 827,
+      "firstName": "Zach",
+      "lastName": "Hewson",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/648",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/648/events"
+      },
+      "athleteId": 648,
+      "meetId": 3,
+      "compNum": 415,
+      "firstName": "Katie",
+      "lastName": "Higinbotham",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/649",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/649/events"
+      },
+      "athleteId": 649,
+      "meetId": 3,
+      "compNum": 828,
+      "firstName": "Sean",
+      "lastName": "Higinbotham",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/650",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/650/events"
+      },
+      "athleteId": 650,
+      "meetId": 3,
+      "compNum": 742,
+      "firstName": "Will",
+      "lastName": "Hoard",
+      "teamName": "Lewis & Clark",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/651",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/651/events"
+      },
+      "athleteId": 651,
+      "meetId": 3,
+      "compNum": 519,
+      "firstName": "Sabrina",
+      "lastName": "Hockett",
+      "teamName": "Willamette",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/652",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/652/events"
+      },
+      "athleteId": 652,
+      "meetId": 3,
+      "compNum": 707,
+      "firstName": "Isaac",
+      "lastName": "Hodgkins",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/653",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/653/events"
+      },
+      "athleteId": 653,
+      "meetId": 3,
+      "compNum": 486,
+      "firstName": "Jenna",
+      "lastName": "Hoiland",
+      "teamName": "Pacific (Ore.)",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/654",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/654/events"
+      },
+      "athleteId": 654,
+      "meetId": 3,
+      "compNum": 807,
+      "firstName": "Zephaniah",
+      "lastName": "Hollins",
+      "teamName": "Northwest Christian",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/655",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/655/events"
+      },
+      "athleteId": 655,
+      "meetId": 3,
+      "compNum": 708,
+      "firstName": "Alex",
+      "lastName": "Horn",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/656",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/656/events"
+      },
+      "athleteId": 656,
+      "meetId": 3,
+      "compNum": 970,
+      "firstName": "Sarah",
+      "lastName": "Howard",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/657",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/657/events"
+      },
+      "athleteId": 657,
+      "meetId": 3,
+      "compNum": 915,
+      "firstName": "Mackenzie",
+      "lastName": "Howell",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/658",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/658/events"
+      },
+      "athleteId": 658,
+      "meetId": 3,
+      "compNum": 829,
+      "firstName": "Josh",
+      "lastName": "Huffman",
+      "teamName": "Pacific (Ore.)",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/659",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/659/events"
+      },
+      "athleteId": 659,
+      "meetId": 3,
+      "compNum": 510,
+      "firstName": "Rachael",
+      "lastName": "Huffman",
+      "teamName": "Western Oregon",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/660",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/660/events"
+      },
+      "athleteId": 660,
+      "meetId": 3,
+      "compNum": 709,
+      "firstName": "Christian",
+      "lastName": "Hughes",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/661",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/661/events"
+      },
+      "athleteId": 661,
+      "meetId": 3,
+      "compNum": 710,
+      "firstName": "Thomas",
+      "lastName": "Hughes",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/662",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/662/events"
+      },
+      "athleteId": 662,
+      "meetId": 3,
+      "compNum": 971,
+      "firstName": "Katherine",
+      "lastName": "Hull",
+      "teamName": "Lewis & Clark",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/663",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/663/events"
+      },
+      "athleteId": 663,
+      "meetId": 3,
+      "compNum": 416,
+      "firstName": "Maiti",
+      "lastName": "Hunter",
+      "teamName": "Linfield",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/664",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/664/events"
+      },
+      "athleteId": 664,
+      "meetId": 3,
+      "compNum": 711,
+      "firstName": "Collin",
+      "lastName": "Hyatt",
+      "teamName": "George Fox",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/665",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/665/events"
+      },
+      "athleteId": 665,
+      "meetId": 3,
+      "compNum": 739,
+      "firstName": "Joshua",
+      "lastName": "Ilustre",
+      "teamName": "Guam",
+      "gender": "M"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/666",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/666/events"
+      },
+      "athleteId": 666,
+      "meetId": 3,
+      "compNum": 916,
+      "firstName": "Renee",
+      "lastName": "Inscore",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/667",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/667/events"
+      },
+      "athleteId": 667,
+      "meetId": 3,
+      "compNum": 456,
+      "firstName": "Halona",
+      "lastName": "Jackson",
+      "teamName": "Northwest Christian",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/668",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/668/events"
+      },
+      "athleteId": 668,
+      "meetId": 3,
+      "compNum": 938,
+      "firstName": "Matney",
+      "lastName": "Jamieson",
+      "teamName": "George Fox",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/669",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/669/events"
+      },
+      "athleteId": 669,
+      "meetId": 3,
+      "compNum": 917,
+      "firstName": "Shelby",
+      "lastName": "Jenkins",
+      "teamName": "Corban",
+      "gender": "F"
+    },
+    {
+      "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/670",
+      "meet": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/meets/3"
+      },
+      "athleteEvents": {
+        "href": "https://fieldscribeapi2017.azurewebsites.net/athletes/670/events"
+      },
+      "athleteId": 670,
+      "meetId": 3,
+      "compNum": 847,
+      "firstName": "Dylan",
+      "lastName": "Jennings",
+      "teamName": "SW Oregon CC",
+      "gender": "M"
+    }
+  ]
+}
